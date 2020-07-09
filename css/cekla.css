@@ -7,14 +7,23 @@
     font-size: 100%;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+div.nav {
+  position: static;
+}
+
+body{
+
     height: 100vh;
     background: url(/img/ceklafarm.jpg) no-repeat center fixed;
     background-size: cover;
 }
+
+body.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .profile-card {
     background-color: hsla(0, 0%, 100%, .5);
@@ -73,4 +82,8 @@ h2 {
 
 .links {
     font-weight: 800;
+}
+
+.image {
+  padding: 20px;
 }
