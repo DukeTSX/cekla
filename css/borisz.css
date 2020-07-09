@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    position: static;
+}
+
+.container {
+    height: 100vh;
+    background: url(/img/bojler.jpg) no-repeat center;
+    background-size: cover;
+}
